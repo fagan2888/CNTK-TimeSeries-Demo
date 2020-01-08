@@ -9,6 +9,10 @@ Desktop.ini
 # Recycle Bin used on file shares
 $RECYCLE.BIN/
 
+packages/
+*.dll
+*.lib
+
 # Windows Installer files
 *.cab
 *.msi
@@ -17,6 +21,34 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+
+# Azure Functions localsettings file
+local.settings.json
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# User-specific files (MonoDevelop/Xamarin Studio)
+*.userprefs
+
+# Build results
+**/bin/
+**/obj/
+.vs/
+
+# any user specific files
+*.user
+_user*
+*.UserSecrets.json
+
+# ReSharper is a .NET coding add-in
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
 
 # =========================
 # Operating System Files
